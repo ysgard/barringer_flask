@@ -1,0 +1,66 @@
+{name}{\n}{description}{\n}{stats}
+
+description
+1 A {race} {hireling} who wants {cost}
+
+name
+1 {name_descriptor_1} {sex_name}{name_descriptor_2}
+
+sex_name
+1 {^women_upper.lst}
+2 {^men_upper.lst}
+
+name_descriptor_1
+3
+1 {^descriptors_upper.lst} 
+
+name_descriptor_2
+3
+1  the {^descriptors_upper.lst}
+
+race
+1 Elf
+1 Dwarf
+3 Human
+1 Halfling
+1 Half-Orc
+
+hireling
+1 Adept {skill}
+1 Burglar {skill}
+1 Minstrel {skill}
+1 Priest {skill}
+1 Protector {skill}
+1 Tracker {skill}
+1 Warrior {skill}
+1 {hireling}, {hireling}
+
+cost
+1 the thrill of victory
+2 coin
+1 to uncover knowledge
+1 fame & glory
+1 debauchery
+1 to accomplish good
+1 to remove a curse
+1 impress the yokels
+1 woo a mate
+1 to feed their family
+1 to convert the impure
+
+stats
+1 Loyalty: {loyalty}
+
+loyalty
+4 0
+3 1
+1 2
+
+skill
+10 {#d3}
+4 {#d3+2}
+1 {#2d3+1}
+1 {#3d3+1}
+
+
+
